@@ -1,0 +1,23 @@
+{
+  "name": "basic-node-scraper",
+  "version": "1.0.0",
+  "description": "From [Getting Started with Web Scraping in Node.js](https://www.codementor.io/dushyantbgs/getting-started-with-web-scraping-in-node-js-sozgieaun?utm_content=posts&amp;utm_source=sendgrid&amp;utm_medium=email&amp;utm_term=post-sozgieaun&amp;utm_campaign=newsletter20190417)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebeerman/basic-node-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebeerman/basic-node-scraper/issues"
+  },
+  "homepage": "https://github.com/lebeerman/basic-node-scraper#readme",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.3",
+    "request": "2.88.0"
+  }
+}
