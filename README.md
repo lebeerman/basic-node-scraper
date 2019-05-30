@@ -15,7 +15,7 @@ Make a web request to a target site/data source. Extract the response body of th
 
 Node.js is open source, one of the most popular runtime environments, and has a community that makes it easy to develop awesome stuff. JS is the language of the browser and is suited specifically for working with the DOM. 
 
-#### Setup
+### Setup
 
 what you need:
 
@@ -26,11 +26,13 @@ cheerio - npm install cheerio
 
 The selector syntax was borrowed from jQuery.The following is a partial list of available selectors:
 
-$("*") — selects all elements
-$("#first") — selects the element with id="first"
-$(".intro") — selects all elements with class="intro"
-$("div") — selects all <div> elements
-$("h2, div, p") — selects all <h2>, <div>, <p> elements
-$("li:first") — selects the first <li> element
-  
+```
+$("*") // selects all elements
+$("#first") // selects the element with id="first"
+$(".intro") // selects all elements with class="intro"
+$("div") // selects all <div> elements
+$("h2, div, p") // selects all <h2>, <div>, <p> elements
+$("li:first") // selects the first <li> element
+```
+
 [Cheerio Docs](https://cheerio.js.org/)
