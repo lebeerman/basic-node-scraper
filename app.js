@@ -28,6 +28,7 @@ request(url, function(error, response, body) {
           if (li[i].children[j].name == 'span') {
             if (li[i].children[j].attribs.class == 'num text-emphasized') {
               // console.log(li[i]["children"][j]);
+              // TODO Testing
               console.log(
                 `Commits : ${li[i].children[j].children[0].data.trim()}`
               );
